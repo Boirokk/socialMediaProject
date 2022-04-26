@@ -8,10 +8,17 @@ body {
 
 .wrapper-form {
     margin-top: 50%;
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.6);
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 40px;
-    border-radius: 20px
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.wrapper-form hr {
+    margin: 20px 0;
+    border: .5px solid grey;
 }
 
 .wrapper-form h2 {
@@ -29,7 +36,7 @@ body {
 
 .register-form input {
     margin: 10px;
-    width: 100%;
+    width: 330px;
     font-size: 1.2rem;
     border-radius: 8px;
     border: none;
@@ -37,19 +44,54 @@ body {
 }
 
 .register-btn {
-    width: 100%;
+    width: 330px;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border: none;
     background-color: #337;
     color: whitesmoke;
-    padding: 10px 5px;
+    padding: 12px 5px;
     border-radius: 8px;
     cursor: pointer;
 }
 
 .register-btn:hover {
     background-color: #333;
+}
+
+.forgot-password {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #1bb9e4;
+}
+
+.login {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login:hover {
+    color: #1bb9e4;
+}
+
+.new-account-btn {
+    font-size: 1.2rem;
+    border: none;
+    background-color: #2fd05a;
+    color: whitesmoke;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.new-account-btn:hover {
+    background-color: #3bc473;
 }
 
 @media screen and (max-width: 600px) {
